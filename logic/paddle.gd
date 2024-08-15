@@ -1,6 +1,6 @@
 extends Area2D
 
-const MOVE_SPEED = 100
+const MOVE_SPEED = 225
 
 var _ball_dir
 var _up
@@ -28,3 +28,8 @@ func _on_area_entered(area):
 	if area.name == "Ball":
 		# Assign new direction.
 		area.direction = Vector2(_ball_dir, randf() * 2 - 1).normalized()
+
+
+
+
+	
