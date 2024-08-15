@@ -1,5 +1,1 @@
-res://logic/paddle.gd
 res://pong.tscn
-res://logic/ball.gd
-res://logic/wall.gd
-res://logic/ceiling_floor.gd
