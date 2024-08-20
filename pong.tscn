@@ -25,23 +25,22 @@ size = Vector2(640, 20)
 [node name="Background" type="ColorRect" parent="."]
 offset_right = 640.0
 offset_bottom = 400.0
-color = Color(0.141176, 0.152941, 0.164706, 1)
+color = Color(0.202422, 0.115086, 0.227796, 1)
 
 [node name="Left" type="Area2D" parent="."]
-modulate = Color(0, 1, 1, 1)
+modulate = Color(0.577005, 0.273145, 1, 1)
 position = Vector2(67.6285, 192.594)
 script = ExtResource("1")
 
 [node name="Sprite2D" type="Sprite2D" parent="Left"]
 position = Vector2(0.3715, 0.406013)
-scale = Vector2(1, 1)
 texture = ExtResource("2")
 
 [node name="Collision" type="CollisionShape2D" parent="Left"]
 shape = SubResource("1")
 
 [node name="Right" type="Area2D" parent="."]
-modulate = Color(1, 0, 1, 1)
+modulate = Color(0.174054, 0.642466, 0.293419, 1)
 position = Vector2(563.815, 188.919)
 script = ExtResource("1")
 
