@@ -16,3 +16,4 @@ func reset():
 	direction = Vector2.LEFT
 	position = _initial_pos
 	_speed = DEFAULT_SPEED
+
